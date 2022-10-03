@@ -1,0 +1,87 @@
+body {
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #D3B566;
+    text-shadow: 4px 4px 4px black;
+    background-color: #181733;
+}
+
+.underline {
+    border-bottom: 4px solid #D3B566;
+}
+
+#camp-nou-img {
+    width: 500px;
+}
+
+#title {
+    margin: 0px auto 150px;
+    font-size: 56px;
+}
+
+#hero {
+    background-image: url(Images/barca1.png);
+    background-size: cover;
+    padding: 150px;
+    margin: -50px -50px 80px -50px;
+}
+
+.player {
+    margin-top: 20px;
+    color: D3B566;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    text-align: center; 
+}
+
+.player-img {
+    width: 200px;
+    border: solid 4px #D3B566;
+    border-radius: 50%;
+}
+
+
+#club-legend {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.player-img:hover {
+    width: 220px;
+    border: solid 5px #D3B566;
+}
+
+#footer {
+    margin: 30px -50px 30px -50px;
+    background: linear-gradient(#181733, #81214E,#181733 ) ;
+    display: flex;
+    color: #025CE9;
+    height: 200px;
+    text-shadow: 0px 0px 2px black;
+    justify-content: space-evenly;
+}
+
+.info {
+    width: 300px;
+    margin-top: 90px;
+}
+
+#copyright-tekst {
+    margin-top: 20px;
+}
+
+#FCB-img {
+    width: 200px;
+}
+
+#info-img {
+    margin-top: 22px;
+}
+
+a {
+    color: #025CE9;
+}
